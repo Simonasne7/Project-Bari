@@ -8,7 +8,7 @@
 	             	padding: 0;
 	             }
 	             * {
-					 box-sizing: border-box;
+	             	box-sizing: border-box;
 	             }
 	             #first-background {
 	             	background-image: url(4.png);
@@ -18,17 +18,17 @@
 	             	background-position: center;
 	             }
 	             .menu-wrap {
-					text-align: center;
-					margin: 0 0 0 0;
-					list-style: none;
-  					padding: 0;
-  					display: flex;
-					justify-content: space-around;
-    				list-style-type:none;
-					width:100%;
-					background-color: #17124c;
-					position: fixed;
-					font-size: 25px;
+	             	text-align: center;
+	             	margin: 0 0 0 0;
+	             	list-style: none;
+	             	padding: 0;
+	             	display: flex;
+	             	justify-content: space-around;
+	             	list-style-type: none;
+	             	width: 100%;
+	             	background-color: #17124c;
+	             	position: fixed;
+	             	font-size: 25px;
 	             }
 	             .logo {
 	             	border: 0;
@@ -58,39 +58,43 @@
 	             #a5 {
 	             	color: #ee3634;
 	             	text-decoration: none;
-				 }
-
-				 @keyframes jump {
-					0% { top: 0; } 50% { top: 50px; } 100% { top: 0; }
-				  }
-				  
+	             }
+	             @keyframes jump {
+	             	0% {
+	             		top: 0;
+	             	}
+	             	50% {
+	             		top: 50px;
+	             	}
+	             	100% {
+	             		top: 0;
+	             	}
+	             }
 	             .arrow {
 	             	font-size: 80px;
-					position: relative;
-					text-align: center;
-					animation: jump 5s infinite;
-					margin-bottom: 250px;
-					
-				a {
-					content: '\f0a8';
-					font-family: 'Patua One', cursive;
-					font-size: 80px;
-					transition: .3s ease-in-out;
-				}
-				a:hover {
-				    opacity: 0.7;
-					transition: .3s ease-in-out;
-						}
-					  
-					}
+	             	position: relative;
+	             	text-align: center;
+	             	animation: jump 5s infinite;
+	             	margin-bottom: 250px;
+	             	a {
+	             		content: '\f0a8';
+	             		font-family: 'Patua One', cursive;
+	             		font-size: 80px;
+	             		transition: .3s ease-in-out;
+	             	}
+	             	a:hover {
+	             		opacity: 0.7;
+	             		transition: .3s ease-in-out;
+	             	}
+	             }
 	             .grid-container {
 	             	display: flex;
 	             	width: 100%;
 	             	margin: auto;
 	             	color: #ee3634;
-					filter: contrast(140%);  
-					justify-content: space-around;
-					font-family: 'Patua One', cursive;
+	             	filter: contrast(140%);
+	             	justify-content: space-around;
+	             	font-family: 'Patua One', cursive;
 	             }
 	             .grid-item {
 	             	width: 70%;
@@ -102,12 +106,12 @@
 	             }
 	             .grid-text {
 	             	font-size: 25px;
-	             	color:black;
-				 }
-				 .first-grid-text {
-					 font-size: 25px;
-					 color: black;
-				 }
+	             	color: black;
+	             }
+	             .first-grid-text {
+	             	font-size: 25px;
+	             	color: black;
+	             }
 	             .second-text {
 	             	display: flex;
 	             	width: 100%;
@@ -126,8 +130,9 @@
 	             }
 	             #video {
 	             	text-align: center;
-					 margin: auto;
-					 padding-bottom: 50px;;
+	             	margin: auto;
+	             	padding-bottom: 50px;
+	             	;
 	             }
 	             #third-parallax {
 	             	background: url(4.png);
@@ -152,9 +157,9 @@
 	             	margin: auto;
 	             }
 	             .contacts {
-					 margin: auto;
-					 font-family: 'Patua One', cursive;
-					 font-size: 20px;
+	             	margin: auto;
+	             	font-family: 'Patua One', cursive;
+	             	font-size: 20px;
 	             }
 	             .button {
 	             	background-color: #ee3634;
@@ -180,19 +185,20 @@
 	             	opacity: 0.8;
 	             	cursor: pointer;
 	             }
-	             .column:hover{
-					color: #424242; 
-				  -webkit-transition: all .3s ease-in;
-				  -moz-transition: all .3s ease-in;
-				  -ms-transition: all .3s ease-in;
-				  -o-transition: all .3s ease-in;
-				  transition: all .3s ease-in;
-				  opacity: 1;
-				  transform: scale(1.15);
-				  -ms-transform: scale(1.15); /* IE 9 */
-				  -webkit-transform: scale(1.15); /* Safari and Chrome */
-				
-				}
+	             .column:hover {
+	             	color: #424242;
+	             	-webkit-transition: all .3s ease-in;
+	             	-moz-transition: all .3s ease-in;
+	             	-ms-transition: all .3s ease-in;
+	             	-o-transition: all .3s ease-in;
+	             	transition: all .3s ease-in;
+	             	opacity: 1;
+	             	transform: scale(1.15);
+	             	-ms-transform: scale(1.15);
+	             	/* IE 9 */
+	             	-webkit-transform: scale(1.15);
+	             	/* Safari and Chrome */
+	             }
 	             /* Clear floats after the columns */
 
 	             .row:after {
@@ -215,8 +221,8 @@
 	             	padding: 20px 0px;
 	             	font-size: 30px;
 	             	text-align: center;
-					 color: #ee3634;
-					 font-family: 'Patua One', cursive;
+	             	color: #ee3634;
+	             	font-family: 'Patua One', cursive;
 	             }
 	             .fa {
 	             	padding: 10px;
@@ -235,107 +241,91 @@
 	             }
 	             .fa:hover {
 	             	opacity: 0.7;
-				 }
-				 .ml6 {
-					position: relative;
-					font-weight: 900;
-					font-size: 3.3em;
-				  }
-				  
-				  .ml6 .text-wrapper {
-					position: relative;
-					display: inline-block;
-					padding-right: 0.05em;
-					overflow: hidden;
-				  }
-				  
-				  .ml6 .letter {
-					display: inline-block;
-					line-height: 1em;
-				  }
-
-
-				  h1, h2, h3 {
-					font-family: 'Patua One', cursive;
-					margin-top: 0;
-					margin-bottom: 2em;
-				}
-				
-				h3 {
-					color: rgb(199,199,199);
-				}
-				
-				p {
-					font-family: 'Patua One', cursive;
-					color: rgb(160, 160, 160);
-					margin-top: 0;
-				}
-				.outer {
-					padding: 1em;
-				}
-				.section {
-					column-count: 1;
-					column-gap: 2em;
-				}
-				
-				img {
-					width: 80%;
-					margin: 1em 0 0;
-				}
-				
-				@media only screen and (min-width: 768px) {
-			
-					p {
-						line-height: 1.6em;
-					}
-					.section {
-						column-count: 2;
-						column-rule-style: solid;
-						column-rule-color: #faf5ef;
-					}
-					.section > * {
-						margin-top: 0;
-					}
-				
-					h1 {
-						font-size: 3rem;
-						margin: 2em 0 1em;
-					}
-				
-					.outer {
-						padding: 4em;
-					}
-				
-					article {
-						padding: 2em;
-						background: #faf5ef;
-					}
-				
-					h2 {
-						display: inline-block;
-						position: relative;
-						z-index: 1;
-					}
-				
-					.secondary {
-						margin-top: 2em;
-					}
-				
-					img {
-						width: 100%;
-					}
-				
-					h3 {
-						color: black;
-						margin: 1.5em 0 1em;
-					}
-				}
-				@media only screen and (min-width: 1100px) {
-					.outer {
-						margin: 0 auto;
-						width: 80%;
-					}
-					.section {
-						column-count: 3;
-					}
-				}
+	             }
+	             .ml6 {
+	             	position: relative;
+	             	font-weight: 900;
+	             	font-size: 3.3em;
+	             }
+	             .ml6 .text-wrapper {
+	             	position: relative;
+	             	display: inline-block;
+	             	padding-right: 0.05em;
+	             	overflow: hidden;
+	             }
+	             .ml6 .letter {
+	             	display: inline-block;
+	             	line-height: 1em;
+	             }
+	             h1, h2, h3 {
+	             	font-family: 'Patua One', cursive;
+	             	margin-top: 0;
+	             	margin-bottom: 2em;
+	             }
+	             h3 {
+	             	color: rgb(199, 199, 199);
+	             }
+	             p {
+	             	font-family: 'Patua One', cursive;
+	             	color: rgb(160, 160, 160);
+	             	margin-top: 0;
+	             }
+	             .outer {
+	             	padding: 1em;
+	             }
+	             .section {
+	             	column-count: 1;
+	             	column-gap: 2em;
+	             }
+	             img {
+	             	width: 80%;
+	             	margin: 1em 0 0;
+	             }
+	             @media only screen and (min-width: 768px) {
+	             	p {
+	             		line-height: 1.6em;
+	             	}
+	             	.section {
+	             		column-count: 2;
+	             		column-rule-style: solid;
+	             		column-rule-color: #faf5ef;
+	             	}
+	             	.section>* {
+	             		margin-top: 0;
+	             	}
+	             	h1 {
+	             		font-size: 3rem;
+	             		margin: 2em 0 1em;
+	             	}
+	             	.outer {
+	             		padding: 4em;
+	             	}
+	             	article {
+	             		padding: 2em;
+	             		background: #faf5ef;
+	             	}
+	             	h2 {
+	             		display: inline-block;
+	             		position: relative;
+	             		z-index: 1;
+	             	}
+	             	.secondary {
+	             		margin-top: 2em;
+	             	}
+	             	img {
+	             		width: 100%;
+	             	}
+	             	h3 {
+	             		color: black;
+	             		margin: 1.5em 0 1em;
+	             	}
+	             }
+	             @media only screen and (min-width: 1100px) {
+	             	.outer {
+	             		margin: 0 auto;
+	             		width: 80%;
+	             	}
+	             	.section {
+	             		column-count: 3;
+	             	}
+	             }
